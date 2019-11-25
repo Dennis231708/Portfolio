@@ -1,0 +1,24 @@
+body {
+    font-family: Raleway;
+    background-image: url(../images/newbackground.jpeg);
+
+}
+hr{
+    height: 1px;
+    background: black;
+}
+
+.content {
+    background: rgb(237,237,237,.6);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: .5rem;
+  
+    
+}
+p {
+    color: black;
+}
+.bg-custom-blue{
+background:rgb(0,0,0, .80);
+}
