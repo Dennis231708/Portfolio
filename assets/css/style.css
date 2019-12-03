@@ -22,3 +22,8 @@ p {
 .bg-custom-blue{
 background:rgb(0,0,0, .80);
 }
+
+.picOMe {
+    height: 230px;
+    width: 250px;
+}
