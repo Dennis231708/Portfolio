@@ -36,18 +36,18 @@
         <div class="content container my-5">
             <h1>Contact</h1>
             <hr>
-            <form>
+            <form id="contact-form" method="post" action="https://formspree.io/mqkalvlv">
                 <div class="form-group">
                     <label for="exampleInputName">Name</label>
-                    <input type="text" class="form-control" id="nameInput" aria-describedby="Namehelp" placeholder="John Doe" required>
+                    <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="Namehelp" placeholder="John Doe" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleinputemail">Email</label>
-                    <input type="email" class="form-control" id="emailInput" aria-describedby="Emailhelp" placeholder="example@gmail.com" required>
+                    <input type="email" name="replyto" class="form-control" id="emailInput" aria-describedby="Emailhelp" placeholder="example@gmail.com" required>
                 </div>
                 <div class="form-group">
                     <label for="MessageExample">Message</label>
-                    <textarea class="form-control" id="messageInput" rows="5" required></textarea>
+                    <textarea class="form-control" name="message" id="messageInput" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Send</button>
             </form>
