@@ -27,3 +27,13 @@ background:rgb(0,0,0, .80);
     height: 230px;
     width: 250px;
 }
+
+.cardPics {
+    object-fit: contain;
+    margin-top: 50px;
+    height: 200px;
+    width: 287px;
+}
+.cardPicsA {
+   object-fit: contain;
+}
